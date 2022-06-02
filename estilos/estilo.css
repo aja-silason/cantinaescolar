@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+body .conteiner{
+    background-color: rgb(240, 240, 240);
+    padding: 5em;
+    width: 40%;
+    margin-top: 5em;
+    border-radius: 10px;
+}
+.logo img{
+    width: 150px;
+}
+.conteiner h3{
+    text-align: center;
+    font-size: 28pt;
+    color: rgb(255, 196, 87);
+}
+h2{
+    text-align: center;
+}
+body .conteiner div{
+    margin: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 50em;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type=submit]{
+    background-color: #fff;
+    font-size: 14pt;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.verprodutos a{
+    color: #000;
+    text-decoration: none;
+    font-size: 14pt;
+    margin: 1em;
+    padding: .5em;
+    border-radius: 5px;
+}
+.verprodutos a.verde{
+    background-color: rgb(149, 245, 149);
+    color: rgb(236, 151, 145);
+
+}
+.verprodutos a.vermelho{
+    background-color: rgb(236, 151, 145);
+    color: #fff;
+}
+.verprodutos a.verde:hover{
+    background-color: rgb(169, 255, 169);
+}
+.verprodutos a.vermelho:hover{
+    background-color: rgb(221, 146, 140);
+}

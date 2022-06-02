@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+}
+
+.conteudo{
+    background-color: rgb(240, 240, 240);
+    padding: .5em;
+    border-radius: 5px;
+    display: flex;
+    width: 900px;
+    height: 500px;
+}
+.conteudo div.cardimg, div.carddesc{
+    width: 50%;
+    margin: .4em;
+}
+.cardimg{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+}
+.cardimg .img{
+    width: 100%;
+    height: 100%;
+}
+.cardimg .img img{
+    width: 100%;
+    height: 100%;
+}
+.dados{
+    height: 20%;
+    width: 96%;
+    background-color: #fff;
+    padding: .5em;
+}
+
+span.anterior{
+    color: rgb(224, 69, 69);
+    text-decoration: line-through;
+}
+
+span.atual{
+    color: rgb(68, 189, 68);
+}
+.voltar{
+    margin-top: 15px;
+}
+.voltar a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(243, 163, 14);
+    padding: 5px 200px 5px 200px;
+    text-align: center;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+.carddesc{
+    display: flex;
+    flex-direction: column;
+}
+.carddesc .descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 70%;
+}
+h2{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(146, 245, 101);
+    padding: 5px 150px 5px 150px;
+    text-align: center;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+p.dica{
+    color: rgb(148, 145, 145);
+    font-weight: 500;
+}
