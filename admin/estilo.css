@@ -6,7 +6,7 @@ body{
 }
 
 body .conteiner{
-    background-color: rgb(4, 155, 175);
+    background-color: rgb(240, 240, 240);
     padding: 5em;
     width: 40%;
     margin-top: 5em;
@@ -14,7 +14,7 @@ body .conteiner{
 }
 .conteiner h3{
     text-align: center;
-    color: #fff;
+    color: #000;
     font-size: 16pt;
 }
 body .conteiner div{
@@ -24,25 +24,31 @@ body .conteiner div{
     align-items: center;
 }
 input{
-    width: 50em;
-    height: 40px;
+    width: 400px;
+    height: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    padding-left: 5px;
 }
 input[type=submit]{
-    background-color: #fff;
+    background-color: rgb(68, 224, 68);
+    color: #fff;
     font-size: 14pt;
 }
 input[type=submit]:hover{
     cursor: pointer;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(81, 211, 81);
+
+}
+input[type=file]{
+    border: none;
 }
 
 .verprodutos a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 14pt;
 }
 .verprodutos a:hover{
-    color: rgb(240, 240, 240);
+    color: rgb(49, 49, 49);
 }

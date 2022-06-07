@@ -10,20 +10,30 @@
 <body>
     <div class="conteiner">
         <h3>Inserir produto na Loja</h3>
-        <div>
-            <input type="text" name="nome" id="nome" placeholder="Inserir nome do produto">
-        </div>
 
-        <div>
-            <input type="text" name="preco" id="preco" placeholder="Insera o preço do produto">
-        </div>
-
-        <div>
-            <input type="text" name="tipo" id="tipo" placeholder="Inserir o tipo do produto">
-        </div>
-        <div>
-            <input type="submit" name="enviar" id="enviar" value="Registrar produto">
-        </div>
+        <form action="" method="get" enctype="multipart/form-data">
+            <div>
+                <input type="file" name="imagem" id="imagem">
+            </div>
+            <div>
+                <input type="text" name="nome" id="nome" placeholder="Inserir nome do produto">
+            </div>
+    
+            <div>
+                <input type="text" name="precoantigo" id="preco" placeholder="Insera o preço antigo do produto">
+            </div>
+            
+            <div>
+                <input type="text" name="precoactual" id="preco" placeholder="Insera o preço actual do produto">
+            </div>
+    
+            <div>
+                <textarea name="descricao" id="descricao" cols="55" rows="10" placeholder="A descrição do produto"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="enviar" id="enviar" value="Registrar produto">
+            </div>
+        </form>
 
         <div class="verprodutos">
             <a href="../cards.html">Ver produtos</a>
