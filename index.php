@@ -1,3 +1,8 @@
+<?php
+
+include_once("./conexao.php")
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -19,8 +24,8 @@
         
 
         <div class="verprodutos">
-            <a href="./login.html" class="vermelho">Inserir produtos</a>
-            <a href="./cards.html" class="verde">Ver produtos</a>
+            <a href="./login.php" class="vermelho">Inserir produtos</a>
+            <a href="./cards.php" class="verde">Ver produtos</a>
         </div>
 
     </div>
