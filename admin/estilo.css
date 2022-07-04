@@ -1,10 +1,18 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+.admin{
+    background-color: rgb(43, 115, 138);
+    width: 45em;
+    margin-bottom: -70px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
 body .conteiner{
     background-color: rgb(240, 240, 240);
     padding: 5em;
